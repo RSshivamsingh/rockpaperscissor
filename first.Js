@@ -24,7 +24,7 @@ const playgame =(userid)=>{
     
     if(userid==compchoice)
     {
-        msg.innerText="GAME DRAW!";
+        msg.innerText="GAME DRAW! 🫱🏼‍🫲🏼🫱🏼‍🫲🏼";
         msg.style.backgroundColor="pink";
         us.innerText="you selected :"+userid;
         cs.innerText="computer selected :"+compchoice;
@@ -46,9 +46,8 @@ const playgame =(userid)=>{
          }
          if(userwin)
          {
-            msg.innerText="YOU WIN !";
+            msg.innerText="YOU WIN ! 🎉🎉";
             msg.style.backgroundColor="green";
-            console.log("you win !");
             users++;
             userscore.innerText=users;
             us.innerText="you selected :"+userid;
@@ -58,8 +57,7 @@ const playgame =(userid)=>{
         else
         {
             msg.style.backgroundColor="red";
-            msg.innerText="YOU LOSE !"
-            console.log("you lose !");
+            msg.innerText="YOU LOSE !😭😭"
             comps++;
             compscore.innerText=comps;
             us.innerText="you selected :"+userid;
