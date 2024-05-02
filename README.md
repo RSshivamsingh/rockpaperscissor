@@ -1,0 +1,2 @@
+# rockpaperscissor
+code of game 
