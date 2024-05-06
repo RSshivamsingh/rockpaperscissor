@@ -1,0 +1,26 @@
+body{
+    background-image: url(https://png.pngtree.com/background/20230517/original/pngtree-beautiful-cartoon-mountain-landscape-wallpaper-picture-image_2640218.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+}
+h3{
+    font-size: 35px;
+
+}
+#innerbox{
+    text-align: center;
+}
+button{
+    border: 2px solid black;
+    background-color: black;
+}
+#link
+{
+    text-decoration:line-through;
+    color: goldenrod;
+}
